@@ -21,9 +21,10 @@
 }
 
 .calc-screen p{
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin: 0;
     font-family: Courier New;
+    text-indent: -10px;
 }
 
 .buttons{
@@ -42,7 +43,8 @@
 .btn.zero{
     grid-area: zero;
     width: 100%;
-    border-radius: 34px
+    border-radius: 34px;
+    text-indent: -85px;
 }
 .btn{
     width: 60px;
@@ -78,4 +80,12 @@
 
 .btn:hover{
     background-color: #727374;
+}
+
+.line{
+    height: 4px;
+    width: 140px;
+    background: white;
+    border-radius: 34px;
+    position: relative; top: 585px;left: 25%;
 }
